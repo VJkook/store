@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace store.Entities.DBase
 {
-    public class Client: User
+    internal class employee: User
     {
-
+        public string JobTitle { get; set; } = null!;
     }
 }

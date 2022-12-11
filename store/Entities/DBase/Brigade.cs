@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace store.Entities.DBase
 {
-    public class Client: User
+    internal class Brigade: BaseEntity
     {
+        public int NumberOfBrigade { get; set; } 
+        public string? Comment { get; set; }
 
     }
 }

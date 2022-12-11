@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace store.Entities.DBase
 {
-    internal class User : BaseEntity
+    public class User : BaseEntity
     {
         public string UserName { get; set; } = null!;
         public string UserSurname { get; set; } = null!;
